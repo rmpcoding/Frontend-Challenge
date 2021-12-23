@@ -1,0 +1,15 @@
+:root {
+    --main-blue: hsl(246, 80%, 60%);
+    --main-red-work: hsl(15, 100%, 70%);
+    --main-blue-play: hsl(195, 74%, 62%);
+    --main-red-study: hsl(348, 100%, 68%);
+    --main-green-exercise: hsl(145, 58%, 55%);
+    --main-violet-social: hsl(264, 64%, 52%);
+    --main-orange-self-care: hsl(43, 84%, 65%);
+
+  }
+
+  * {
+      margin: 0px;
+      padding: 0px;
+  }
