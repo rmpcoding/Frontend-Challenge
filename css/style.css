@@ -6,10 +6,17 @@
     --main-green-exercise: hsl(145, 58%, 55%);
     --main-violet-social: hsl(264, 64%, 52%);
     --main-orange-self-care: hsl(43, 84%, 65%);
+    --main-very-dark-blue: hsl(226, 43%, 10%);
+    --main-dark-blue: hsl(235, 46%, 20%);
+    --main-desaturated-blue: hsl(235, 45%, 61%);
+    --main-pale-blue: hsl(236, 100%, 87%);
+}
 
-  }
+* {
+    margin: 0px;
+    padding: 0px;
+}
 
-  * {
-      margin: 0px;
-      padding: 0px;
-  }
+body {
+    background-color: var(--main-very-dark-blue);
+}
