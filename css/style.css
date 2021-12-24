@@ -26,8 +26,22 @@ body {
 .side-bar-left{
 background-color: pink;
 width: 30%;
+height: 100vh;
+display: flex;
+justify-content: flex-end;
 }
 .side-bar-right{
     background-color: royalblue;
     width: 70%;
+    height: 100vh;
+    display: inline;
+}
+
+.card {
+    display: inline-block;
+}
+
+.large-card{
+    height: 400px;
+    align-self: center;
 }
