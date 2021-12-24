@@ -19,4 +19,5 @@
 
 body {
     background-color: var(--main-very-dark-blue);
+    color: var(--main-pale-blue);
 }
