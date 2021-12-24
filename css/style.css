@@ -20,4 +20,14 @@
 body {
     background-color: var(--main-very-dark-blue);
     color: var(--main-pale-blue);
+    display: flex;
+}
+
+.side-bar-left{
+background-color: pink;
+width: 30%;
+}
+.side-bar-right{
+    background-color: royalblue;
+    width: 70%;
 }
