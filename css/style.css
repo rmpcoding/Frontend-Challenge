@@ -44,4 +44,11 @@ justify-content: flex-end;
 .large-card{
     height: 400px;
     align-self: center;
+    border-radius: 10px;
+}
+
+#user-profile{
+    background-color: seagreen;
+    height: 70%;
+    border-radius: 10px;
 }
