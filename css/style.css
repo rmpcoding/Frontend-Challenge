@@ -24,7 +24,7 @@ body {
 }
 
 .side-bar-left{
-background-color: pink;
+background-color: hsl(226, 43%, 10%);
 width: 30%;
 height: 100vh;
 display: flex;
@@ -45,10 +45,31 @@ justify-content: flex-end;
     height: 400px;
     align-self: center;
     border-radius: 10px;
+    background-color: hsl(235, 46%, 20%);
+    /* display: block; */
 }
 
 #user-profile{
-    background-color: seagreen;
+    background-color: hsl(246, 80%, 60%);
     height: 70%;
     border-radius: 10px;
+}
+
+.profile-pic{
+width: 75px;
+height: auto;
+margin: 25px 15px;
+border: white solid 5px;
+border-radius: 50%;
+background-color: white;
+}
+
+#large-card-text{
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+#name{
+    font-size: 32px;
+    margin-left: 10px;
 }
